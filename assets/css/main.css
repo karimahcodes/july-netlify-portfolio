@@ -1736,6 +1736,18 @@ input, select, textarea {
 			width: 100%;
 		}
 
+
+		.project-img{
+			transition: all .5s;
+		}
+		.project-img:hover{
+			border: 2px solid rgba(0, 0, 0, 0.1);
+			transform: scale(1.05);
+			box-shadow:  -0.875rem .75rem 0.313rem #4acaa841
+;
+
+		}
+
 		@media screen and (max-width: 1024px) {
 
 			.container {
@@ -2665,9 +2677,10 @@ input, select, textarea {
 
 		.features article .image {
 			display: inline-block;
-			padding-right: 2.5em;
+			margin-right: 1em;
+			margin-bottom: 2em;
 			vertical-align: middle;
-			width: 48%;
+			width: 45%;
 		}
 
 			.features article .image img {
