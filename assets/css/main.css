@@ -1739,13 +1739,20 @@ input, select, textarea {
 
 		.project-img{
 			transition: all .5s;
+			border: 0.875rem solid #0000001a;
 		}
 		.project-img:hover{
 			border: 2px solid rgba(0, 0, 0, 0.1);
 			transform: scale(1.05);
-			box-shadow:  -0.875rem .75rem 0.313rem #4acaa841
-;
+			box-shadow:  -0.875rem .75rem 0.313rem #4acaa841;
+		}
 
+		.project-img-mini{
+			transition: all .7s;
+		}
+		.project-img-mini:hover{
+			border: 0.0625rem, solid rgba(0, 0, 0, 0.1);
+			transform: scale(4.0);
 		}
 
 		@media screen and (max-width: 1024px) {
